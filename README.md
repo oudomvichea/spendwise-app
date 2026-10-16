@@ -18,7 +18,7 @@ Spendwise is a local-first spending tracker. It includes receipt scanning, on-de
 
 ## Use the camera
 
-Choose **Scan receipt → Take a photo** and allow camera access when the browser asks. If camera access is unavailable, use **Choose a photo** instead. Direct camera access requires a secure HTTPS website or localhost.
+Choose **Scan receipt → Take a photo** and allow camera access when the browser asks. If camera access is unavailable, use **Choose a photo** instead. Direct camera access requires a secure HTTPS website or localhost. The scanner prepares a resized copy of the image in the browser before OCR. If the photo opens but no item lines are detected, check the lighting and framing or add the items manually. The photo itself is not stored.
 
 ## Install on your phone
 
