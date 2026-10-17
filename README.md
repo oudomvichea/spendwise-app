@@ -1,6 +1,6 @@
 # Spendwise — Personal Money Tracker
 
-Spendwise is a local-first spending tracker. It includes receipt scanning, on-device AI category suggestions, manual expenses and income, and monthly summaries. It does not use Plaid or a paid AI API.
+Spendwise is a local-first spending tracker. It includes receipt scanning, product-name category matching with on-device AI suggestions for unfamiliar items, manual expenses and income, and monthly summaries. It does not use Plaid or a paid AI API.
 
 ## Run on Windows
 
