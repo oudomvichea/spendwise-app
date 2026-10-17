@@ -18,7 +18,7 @@ Spendwise is a local-first spending tracker. It includes receipt scanning, on-de
 
 ## Use the camera
 
-Choose **Scan receipt → Take a photo** and allow camera access when the browser asks. If camera access is unavailable, use **Choose a photo** instead. Direct camera access requires a secure HTTPS website or localhost. The scanner prepares a resized copy of the image in the browser before OCR. If the photo opens but no item lines are detected, check the lighting and framing or add the items manually. The photo itself is not stored.
+Choose **Scan receipt → Take a photo** and allow camera access when the browser asks. If camera access is unavailable, use **Choose a photo** instead. Direct camera access requires a secure HTTPS website or localhost. The scanner prepares a resized copy of an image in the browser before OCR. You can also select a PDF: selectable PDF text is read directly, while scanned PDFs are rendered for OCR (up to the first 5 pages). PDFs and photos are processed in the browser and are not stored. If no item lines are detected, check the lighting and framing or add the items manually.
 
 ## Install on your phone
 
@@ -27,7 +27,7 @@ The ZIP is the app's source files; it is not an Android APK or iPhone App Store 
 - **iPhone:** Open the HTTPS address in Safari, tap Share, choose **Add to Home Screen**, and tap Add.
 - **Android:** Open the HTTPS address in Chrome and choose **Install app** or **Add to Home screen** from the menu.
 
-The app includes a web manifest, install icon, and service worker so its interface can open as a home-screen web app. The OCR and AI packages/model still need to download the first time you scan a receipt. Keep an internet connection for the initial scan.
+The app includes a web manifest, install icon, and service worker so its interface can open as a home-screen web app. The OCR, PDF reader, and AI packages/model may need to download the first time you scan a receipt. Keep an internet connection for the initial scan. Keep an internet connection for the initial scan.
 
 ## Data and privacy
 
