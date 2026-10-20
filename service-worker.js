@@ -1,4 +1,4 @@
-const CACHE = 'spendwise-shell-v7';
+const CACHE = 'spendwise-shell-v8';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(FILES)));
