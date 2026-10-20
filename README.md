@@ -18,7 +18,7 @@ Spendwise is a local-first spending tracker. It scans receipts, suggests categor
 
 ## Receipt scanning and categorization
 
-Choose **Scan receipt → Take a photo** and allow camera access. The app reads the receipt in your browser. It first uses saved corrections and product-name matching. If configured, it sends only item names (not receipt photos, amounts, or store names) to the OpenAI categorizer. Otherwise it uses its on-device model for less familiar items. Review suggestions before saving.
+Choose **Scan receipt → Take a photo** and allow camera access. The app reads the receipt in your browser. It first uses saved corrections and product-name matching. If configured, it sends only item names (not receipt photos, amounts, or store names) to the OpenAI categorizer. Otherwise it uses its on-device model for less familiar items. The app flags low-confidence or “Other” suggestions and asks you to confirm before saving. Confidence is an AI estimate, not a guarantee; correct any wrong category in the review list.
 
 Photos and PDFs are processed in the browser and are not stored. PDFs with selectable text are read directly; scanned PDFs use OCR (up to the first 5 pages). A clear photo or PDF helps the scanner recognize item names and prices.
 
