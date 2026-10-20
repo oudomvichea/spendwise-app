@@ -44,7 +44,7 @@
 <div class="toast" id="toast"></div>
 
 <script type="module">
-const OPENAI_CATEGORIZER_URL=''; // Set to your deployed Worker URL; never put the API key here.
+const OPENAI_CATEGORIZER_URL='https://spendwise-categorizer.oudom-spendwise-7264.workers.dev/categorize'; // Set to your deployed Worker URL; never put the API key here.
 const CATEGORIES=['Groceries','Dining','Transportation','Household','Personal care','Clothing','Health','Entertainment','Education','Bills & utilities','Alcohol','Other'];
 const EMOJI={'Groceries':'🥑','Dining':'☕','Transportation':'🚗','Household':'🧻','Personal care':'🧴','Clothing':'👕','Health':'💊','Entertainment':'🎟️','Education':'📚','Bills & utilities':'💡','Other':'📦','Income':'💵'};
 const DBKEY='spendwise-v1'; let state=loadState(), mode='expense', receiptRows=[], receiptID=null, classifier=null, toastTimer, cameraStream=null, installPrompt=null;
